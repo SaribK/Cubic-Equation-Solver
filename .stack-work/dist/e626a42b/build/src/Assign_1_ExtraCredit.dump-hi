@@ -1,0 +1,63 @@
+
+==================== FINAL INTERFACE ====================
+2019-09-17 17:28:19.8227211 UTC
+
+interface 1JC3-Assign1-0.1.0.0-6MyMeQOk0VLEm5g9JUlC4U:Assign_1_ExtraCredit 8065
+  interface hash: 2596d77a4a00acfe98287f4b603677cd
+  ABI hash: 6b4ac2aa24c5589e642f1ea935d4b4d5
+  export-list hash: bd6781e5a61fc20930f510aeea9bdc5c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6a46bca0c8cc9d71c0c804f9eadc1d3e
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Assign_1_ExtraCredit.macid
+module dependencies:
+package dependencies: base-4.12.0.0* ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:Prelude 80c668cb99fbafebd524c5e897f8c982
+4a0e8c0e5f26d5b60d8b7cfc7d5783ba
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Assign_1_ExtraCredit.$trModule3
+                   Assign_1_ExtraCredit.$trModule1) -}
+bbd24be933464e6bc3623b1d360839bd
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Assign_1_ExtraCredit.$trModule2) -}
+427f9e21fd0ed934ba006ecefb8db005
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Assign_1_ExtraCredit"#) -}
+66e7a3d020ac136cc4cdc77f171001dd
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Assign_1_ExtraCredit.$trModule4) -}
+88922c0e5019b29c99bd8d045056f18a
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("1JC3-Assign1-0.1.0.0-6MyMeQOk0VLEm5g9JUlC4U"#) -}
+8d4fff0198e34798268660174f191239
+  macid :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Assign_1_ExtraCredit.macid1) -}
+0b3e9b5adb7fd059053d6a4228459e42
+  macid1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("TODO: put your mac id here"#) -}
+trusted: safe
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+

@@ -1,0 +1,336 @@
+
+==================== FINAL INTERFACE ====================
+2019-09-19 16:46:51.3808279 UTC
+
+interface 1JC3-Assign1-0.1.0.0-6MyMeQOk0VLEm5g9JUlC4U:Assign_1 8065
+  interface hash: a0ba116f3b92a5e89665571ae6d7feb6
+  ABI hash: eb49e642838a3e501652f83431c787f2
+  export-list hash: ba6b72af80efb4d4f3e0992ae1ca0f97
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6a46bca0c8cc9d71c0c804f9eadc1d3e
+  opt_hash: 6faf2de08de32d19db9870899d88e59a
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  plugin_hash: ad164012d6b1e14942349d58b1132007
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Assign_1.cubicDisc
+  Assign_1.cubicQ
+  Assign_1.cubicR
+  Assign_1.cubicRealSolutions
+  Assign_1.cubicS
+  Assign_1.cubicT
+  Assign_1.macid
+module dependencies:
+package dependencies: base-4.12.0.0* ghc-prim-0.5.3
+                      integer-gmp-1.0.2.0
+orphans: base-4.12.0.0:GHC.Float base-4.12.0.0:GHC.Base
+family instance modules: base-4.12.0.0:Control.Applicative
+                         base-4.12.0.0:Data.Functor.Const
+                         base-4.12.0.0:Data.Functor.Identity base-4.12.0.0:Data.Monoid
+                         base-4.12.0.0:Data.Semigroup.Internal base-4.12.0.0:GHC.Generics
+                         base-4.12.0.0:GHC.IO.Exception
+import  -/  base-4.12.0.0:GHC.Base fbe365a916ebeeeb4bc1f895dbe83e42
+import  -/  base-4.12.0.0:GHC.Float 465066e9b470b2f5c867f7b1c40e758b
+import  -/  base-4.12.0.0:GHC.Num 8203d3fee487126cffd5e55ba5d0e8c3
+import  -/  base-4.12.0.0:GHC.Real 3b42f3125c1d17d4e4b4437a3c97310f
+import  -/  base-4.12.0.0:Prelude 80c668cb99fbafebd524c5e897f8c982
+import  -/  ghc-prim-0.5.3:GHC.Classes 6002495dc43e58d28c87e5e5e058752a
+3d800b06a8528671211e66c8300f0639
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Assign_1.$trModule3
+                   Assign_1.$trModule1) -}
+9dc516e5aff97ac6b81ae1e3ed018209
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Assign_1.$trModule2) -}
+d8878947b3e11bbb2693b208b7c9d70b
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Assign_1"#) -}
+52494febb48d70d7cf8dfb5735f4bcba
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Assign_1.$trModule4) -}
+1c633eb52ea7472b2227029b8de28c51
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("1JC3-Assign1-0.1.0.0-6MyMeQOk0VLEm5g9JUlC4U"#) -}
+f1ef0bf92b88fc376aa4a8311cc3488b
+  $wcubicRealSolutions ::
+    GHC.Prim.Double#
+    -> GHC.Prim.Double#
+    -> GHC.Prim.Double#
+    -> GHC.Prim.Double#
+    -> [GHC.Types.Double]
+  {- Arity: 4, Strictness: <S,U><S,U><S,U><S,U>, Inline: [2],
+     Unfolding: (\ (ww :: GHC.Prim.Double#)
+                   (ww1 :: GHC.Prim.Double#)
+                   (ww2 :: GHC.Prim.Double#)
+                   (ww3 :: GHC.Prim.Double#) ->
+                 case GHC.Prim./##
+                        (GHC.Prim.-##
+                           (GHC.Prim.*## (GHC.Prim.*## 3.0## ww) ww2)
+                           (GHC.Prim.*## ww1 ww1))
+                        (GHC.Prim.*## 9.0## (GHC.Prim.*## ww ww)) of wild2 { DEFAULT ->
+                 let {
+                   y :: GHC.Prim.Double# = GHC.Prim.*## (GHC.Prim.*## ww1 ww1) ww1
+                 } in
+                 case GHC.Prim./##
+                        (GHC.Prim.-##
+                           (GHC.Prim.-##
+                              (GHC.Prim.*## (GHC.Prim.*## (GHC.Prim.*## 9.0## ww) ww1) ww2)
+                              (GHC.Prim.*## (GHC.Prim.*## 27.0## (GHC.Prim.*## ww ww)) ww3))
+                           (GHC.Prim.+## y y))
+                        (GHC.Prim.*##
+                           54.0##
+                           (GHC.Prim.*## (GHC.Prim.*## ww ww) ww)) of wild1 { DEFAULT ->
+                 let {
+                   x :: GHC.Prim.Double#
+                   = GHC.Prim.+##
+                       (GHC.Prim.*## (GHC.Prim.*## wild2 wild2) wild2)
+                       (GHC.Prim.*## wild1 wild1)
+                 } in
+                 case GHC.Prim.<## x 0.0## of lwild {
+                   DEFAULT
+                   -> let {
+                        s :: GHC.Types.Double
+                        = case GHC.Prim.>=## x 0.0## of lwild1 {
+                            DEFAULT -> Assign_1.cubicRealSolutions2
+                            1#
+                            -> GHC.Types.D#
+                                 (GHC.Prim.**##
+                                    (GHC.Prim.+## wild1 (GHC.Prim.**## x 0.5##))
+                                    0.3333333333333333##) }
+                      } in
+                      let {
+                        t :: GHC.Types.Double
+                        = case GHC.Prim.<##
+                                 (GHC.Prim.-## wild1 (GHC.Prim.**## x 0.5##))
+                                 0.0## of lwild1 {
+                            DEFAULT
+                            -> GHC.Types.D#
+                                 (GHC.Prim.**##
+                                    (GHC.Prim.-## wild1 (GHC.Prim.**## x 0.5##))
+                                    0.3333333333333333##)
+                            1#
+                            -> GHC.Types.D#
+                                 (GHC.Prim.negateDouble#
+                                    (GHC.Prim.**##
+                                       (GHC.Prim.negateDouble#
+                                          (GHC.Prim.-## wild1 (GHC.Prim.**## x 0.5##)))
+                                       0.3333333333333333##)) }
+                      } in
+                      case GHC.Prim.==## x 0.0## of lwild1 {
+                        DEFAULT
+                        -> case GHC.Prim.>## x 0.0## of lwild2 {
+                             DEFAULT -> Assign_1.cubicRealSolutions1
+                             1#
+                             -> GHC.Types.:
+                                  @ GHC.Types.Double
+                                  (case s of wild { GHC.Types.D# x1 ->
+                                   case t of wild3 { GHC.Types.D# y1 ->
+                                   case GHC.Prim./##
+                                          ww1
+                                          (GHC.Prim.*## 3.0## ww) of wild4 { DEFAULT ->
+                                   GHC.Types.D# (GHC.Prim.-## (GHC.Prim.+## x1 y1) wild4) } } })
+                                  (GHC.Types.[] @ GHC.Types.Double) }
+                        1#
+                        -> GHC.Types.:
+                             @ GHC.Types.Double
+                             (case s of wild { GHC.Types.D# x1 ->
+                              case t of wild3 { GHC.Types.D# y1 ->
+                              case GHC.Prim./## ww1 (GHC.Prim.*## 3.0## ww) of wild4 { DEFAULT ->
+                              GHC.Types.D# (GHC.Prim.-## (GHC.Prim.+## x1 y1) wild4) } } })
+                             (GHC.Types.:
+                                @ GHC.Types.Double
+                                (case s of wild { GHC.Types.D# x1 ->
+                                 case t of wild3 { GHC.Types.D# y1 ->
+                                 case GHC.Prim./## ww1 (GHC.Prim.*## 3.0## ww) of wild4 { DEFAULT ->
+                                 GHC.Types.D#
+                                   (GHC.Prim.-##
+                                      (GHC.Prim.negateDouble#
+                                         (GHC.Prim./## (GHC.Prim.+## x1 y1) 2.0##))
+                                      wild4) } } })
+                                (GHC.Types.:
+                                   @ GHC.Types.Double
+                                   (case s of wild { GHC.Types.D# x1 ->
+                                    case t of wild3 { GHC.Types.D# y1 ->
+                                    case GHC.Prim./##
+                                           ww1
+                                           (GHC.Prim.*## 3.0## ww) of wild4 { DEFAULT ->
+                                    GHC.Types.D#
+                                      (GHC.Prim.-##
+                                         (GHC.Prim.negateDouble#
+                                            (GHC.Prim./## (GHC.Prim.+## x1 y1) 2.0##))
+                                         wild4) } } })
+                                   (GHC.Types.[] @ GHC.Types.Double))) }
+                   1# -> GHC.Types.[] @ GHC.Types.Double } } }) -}
+c398e18dda7c6830bc082145b6e9549f
+  cubicDisc ::
+    GHC.Types.Double -> GHC.Types.Double -> GHC.Types.Double
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (q :: GHC.Types.Double) (r :: GHC.Types.Double) ->
+                 case q of wild { GHC.Types.D# x ->
+                 case r of wild1 { GHC.Types.D# x1 ->
+                 GHC.Types.D#
+                   (GHC.Prim.+##
+                      (GHC.Prim.*## (GHC.Prim.*## x x) x)
+                      (GHC.Prim.*## x1 x1)) } }) -}
+29143d20fbc51050eb87b771610c1ce1
+  cubicQ ::
+    GHC.Types.Double
+    -> GHC.Types.Double -> GHC.Types.Double -> GHC.Types.Double
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ (a :: GHC.Types.Double)
+                   (b :: GHC.Types.Double)
+                   (c :: GHC.Types.Double) ->
+                 case a of wild1 { GHC.Types.D# y ->
+                 case c of wild2 { GHC.Types.D# y1 ->
+                 case b of wild { GHC.Types.D# x ->
+                 case GHC.Prim./##
+                        (GHC.Prim.-##
+                           (GHC.Prim.*## (GHC.Prim.*## 3.0## y) y1)
+                           (GHC.Prim.*## x x))
+                        (GHC.Prim.*## 9.0## (GHC.Prim.*## y y)) of wild3 { DEFAULT ->
+                 GHC.Types.D# wild3 } } } }) -}
+2aa426e207704ca83a6ed5646fd41e3c
+  cubicR ::
+    GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (4, True, False)
+                (\ (a :: GHC.Types.Double)
+                   (b :: GHC.Types.Double)
+                   (c :: GHC.Types.Double)
+                   (d :: GHC.Types.Double) ->
+                 case a of wild1 { GHC.Types.D# y ->
+                 case b of wild2 { GHC.Types.D# y1 ->
+                 case c of wild3 { GHC.Types.D# y2 ->
+                 case d of wild4 { GHC.Types.D# y3 ->
+                 let {
+                   y4 :: GHC.Prim.Double# = GHC.Prim.*## (GHC.Prim.*## y1 y1) y1
+                 } in
+                 case GHC.Prim./##
+                        (GHC.Prim.-##
+                           (GHC.Prim.-##
+                              (GHC.Prim.*## (GHC.Prim.*## (GHC.Prim.*## 9.0## y) y1) y2)
+                              (GHC.Prim.*## (GHC.Prim.*## 27.0## (GHC.Prim.*## y y)) y3))
+                           (GHC.Prim.+## y4 y4))
+                        (GHC.Prim.*##
+                           54.0##
+                           (GHC.Prim.*## (GHC.Prim.*## y y) y)) of wild5 { DEFAULT ->
+                 GHC.Types.D# wild5 } } } } }) -}
+9c35ba72554f4d87bc300ee79cd8b586
+  cubicRealSolutions ::
+    GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> [GHC.Types.Double]
+  {- Arity: 4,
+     Strictness: <S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)><S(S),1*U(U)>,
+     Inline: [2],
+     Unfolding: InlineRule (4, True, False)
+                (\ (w :: GHC.Types.Double)
+                   (w1 :: GHC.Types.Double)
+                   (w2 :: GHC.Types.Double)
+                   (w3 :: GHC.Types.Double) ->
+                 case w of ww { GHC.Types.D# ww1 ->
+                 case w1 of ww2 { GHC.Types.D# ww3 ->
+                 case w2 of ww4 { GHC.Types.D# ww5 ->
+                 case w3 of ww6 { GHC.Types.D# ww7 ->
+                 Assign_1.$wcubicRealSolutions ww1 ww3 ww5 ww7 } } } }) -}
+06195c44ebb36e08ee1dd3a31e51e0e5
+  cubicRealSolutions1 :: [GHC.Types.Double]
+  {- Strictness: x -}
+41d00d36507faf0e9ec909f272898390
+  cubicRealSolutions2 :: GHC.Types.Double
+  {- Strictness: x -}
+9f434d52918f9d276fc4a9b21385dce6
+  cubicS :: GHC.Types.Double -> GHC.Types.Double -> GHC.Types.Double
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (q :: GHC.Types.Double) (r :: GHC.Types.Double) ->
+                 case q of wild { GHC.Types.D# x ->
+                 case r of wild1 { GHC.Types.D# x1 ->
+                 case GHC.Prim.>=##
+                        (GHC.Prim.+##
+                           (GHC.Prim.*## (GHC.Prim.*## x x) x)
+                           (GHC.Prim.*## x1 x1))
+                        0.0## of lwild {
+                   DEFAULT -> Assign_1.cubicRealSolutions2
+                   1#
+                   -> GHC.Types.D#
+                        (GHC.Prim.**##
+                           (GHC.Prim.+##
+                              x1
+                              (GHC.Prim.**##
+                                 (GHC.Prim.+##
+                                    (GHC.Prim.*## (GHC.Prim.*## x x) x)
+                                    (GHC.Prim.*## x1 x1))
+                                 0.5##))
+                           0.3333333333333333##) } } }) -}
+ae90c33422af2be52660f7e9768fba37
+  cubicT :: GHC.Types.Double -> GHC.Types.Double -> GHC.Types.Double
+  {- Arity: 2, HasNoCafRefs, Strictness: <S(S),1*U(U)><S(S),1*U(U)>m,
+     Inline: [2],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Double) (w1 :: GHC.Types.Double) ->
+                 case w of ww { GHC.Types.D# ww1 ->
+                 case w1 of ww2 { GHC.Types.D# ww3 ->
+                 case GHC.Prim.<##
+                        (GHC.Prim.-##
+                           ww3
+                           (GHC.Prim.**##
+                              (GHC.Prim.+##
+                                 (GHC.Prim.*## (GHC.Prim.*## ww1 ww1) ww1)
+                                 (GHC.Prim.*## ww3 ww3))
+                              0.5##))
+                        0.0## of lwild {
+                   DEFAULT
+                   -> GHC.Types.D#
+                        (GHC.Prim.**##
+                           (GHC.Prim.-##
+                              ww3
+                              (GHC.Prim.**##
+                                 (GHC.Prim.+##
+                                    (GHC.Prim.*## (GHC.Prim.*## ww1 ww1) ww1)
+                                    (GHC.Prim.*## ww3 ww3))
+                                 0.5##))
+                           0.3333333333333333##)
+                   1#
+                   -> GHC.Types.D#
+                        (GHC.Prim.negateDouble#
+                           (GHC.Prim.**##
+                              (GHC.Prim.negateDouble#
+                                 (GHC.Prim.-##
+                                    ww3
+                                    (GHC.Prim.**##
+                                       (GHC.Prim.+##
+                                          (GHC.Prim.*## (GHC.Prim.*## ww1 ww1) ww1)
+                                          (GHC.Prim.*## ww3 ww3))
+                                       0.5##)))
+                              0.3333333333333333##)) } } }) -}
+ee62a4d36f190ec320d067f7013fce9f
+  macid :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# Assign_1.macid1) -}
+67378683b513c887c3dabcdc2c5a8bf9
+  macid1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Kashis2"#) -}
+trusted: safe
+require own pkg trusted: False
+module header:
+  Nothing
+declaration docs:
+arg docs:
+
